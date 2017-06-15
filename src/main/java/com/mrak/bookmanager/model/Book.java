@@ -11,7 +11,7 @@ public class Book {
     private int id;
 
     @Column(name = "BOOK_TITLE")
-    private String bookTitlel;
+    private String bookTitle;
 
     @Column(name = "BOOK_AUTHOR")
     private String bookAuthor;
@@ -27,12 +27,12 @@ public class Book {
         this.id = id;
     }
 
-    public String getBookTitlel() {
-        return bookTitlel;
+    public String getBookTitle() {
+        return bookTitle;
     }
 
-    public void setBookTitlel(String bookTitlel) {
-        this.bookTitlel = bookTitlel;
+    public void setBookTitle(String bookTitle) {
+        this.bookTitle = bookTitle;
     }
 
     public String getBookAuthor() {
@@ -55,7 +55,7 @@ public class Book {
     public String toString() {
         return "Book{" +
                 "id=" + id +
-                ", bookTitlel=" + bookTitlel +
+                ", bookTitle=" + bookTitle +
                 ", bookAuthor=" + bookAuthor +
                 ", price=" + price +
                 '}';

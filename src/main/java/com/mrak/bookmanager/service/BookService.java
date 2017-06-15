@@ -1,10 +1,11 @@
-package com.mrak.bookmanager.dao;
+package com.mrak.bookmanager.service;
+
 
 import com.mrak.bookmanager.model.Book;
 
 import java.util.List;
 
-public interface BookDao {
+public interface BookService {
     public void addBook(Book book);
 
     public void updateBook(Book book);
@@ -15,3 +16,4 @@ public interface BookDao {
 
     public List<Book> listBooks();
 }
+
