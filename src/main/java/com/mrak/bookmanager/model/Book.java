@@ -17,7 +17,7 @@ public class Book {
     private String bookAuthor;
 
     @Column(name = "BOOK_PRICE")
-    private int price;
+    private Float price;
 
     public int getId() {
         return id;
@@ -43,11 +43,11 @@ public class Book {
         this.bookAuthor = bookAuthor;
     }
 
-    public int getPrice() {
+    public Float getPrice() {
         return price;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(Float price) {
         this.price = price;
     }
 
